@@ -1,0 +1,6 @@
+filename,Mean silence detected,# of intervals
+/Users/user/Desktop/Sample_Test2/clova/file3_labeled.csv,2.818202517788726,29
+/Users/user/Desktop/Sample_Test2/clova/file1_labeled.csv,2.2426666666666675,9
+/Users/user/Desktop/Sample_Test2/clova/file2_labeled.csv,2.2426666666666675,9
+###,finished,###
+total mean(entire dataset),clova,2.5977845322526187

@@ -1,0 +1,6 @@
+filename,Mean silence detected,# of intervals
+/Users/user/Desktop/Sample_Test2/nugu/인공지능 스피커 누구 미니(NUGU MINI) 사용기 - 심심해 및 숨겨진 명령어_labeled.csv,2.056878857757795,59
+/Users/user/Desktop/Sample_Test2/nugu/인공지능 스피커 누구 미니(NUGU MINI) 사용기 - 캘린더프로야구길안내날씨_labeled.csv,2.082525947521867,35
+/Users/user/Desktop/Sample_Test2/nugu/누구 미니 체험_labeled.csv,2.040046349206351,25
+###,finished,###
+total mean(entire dataset),nugu,2.06088587816079

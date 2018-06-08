@@ -1,0 +1,6 @@
+filename,Mean silence detected,# of intervals
+/Users/user/Desktop/Sample_Test2/kakao/카카오미니 활용기2 구구단 게임 하자!_labeled.csv,2.138900478709995,18
+/Users/user/Desktop/Sample_Test2/kakao/카카오미니_사용기_인공지능_스피커_맛보기_labeled.csv,2.3238857142857223,35
+/Users/user/Desktop/Sample_Test2/kakao/Hey__카카오_카카오미니_기능_사용_영상_labeled.csv,2.1155132005183006,28
+###,finished,###
+total mean(entire dataset),kakao,2.2107478793986743

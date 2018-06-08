@@ -1,0 +1,6 @@
+filename,Mean silence detected,# of intervals
+/Users/user/Desktop/Sample_Test2/wave/네이버_인공지능_스피커_-_WAVE의_콘텍스트_응답_데모_labeled.csv,3.8213333333333357,3
+/Users/user/Desktop/Sample_Test2/wave/네이버 AI 스피커 웨이브_labeled.csv,2.8101333333333347,15
+/Users/user/Desktop/Sample_Test2/wave/네이버 인공지능 스피커 웨이브(wave)에게 질문하기 1_labeled.csv,2.9633226038382796,82
+###,finished,###
+total mean(entire dataset),wave,2.96608453514739
