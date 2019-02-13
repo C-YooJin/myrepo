@@ -50,12 +50,12 @@ def download(vodid, url, path, i):
     errorlog = os.path.splitext(path)[0]+'.errorlog'
     downloadlog = os.path.splitext(path)[0] + '.log'
     suffix = '_dup_'
+    
     if os.path.exists(path+'/%s'%(url.split('/')[-1])):
         with open(errorlog, 'a') as w:
             w.write('duplicate: %s,%s'%(vodid, url)+'\n')
         path = path + '/%s'%(url.split('/')[-1].split('.')[0])+suffix+'(%d)'%i+'.mp4'
         i += 1
-
     else:
         path = path + '/%s' % (url.split('/')[-1])
 
