@@ -49,7 +49,7 @@ def download(vodid, url, path):
     """
     errorlog = os.path.splitext(path)[0]+'.errorlog'
     downloadlog = os.path.splitext(path)[0] + '.log'
-    path = path+'/%s.mp4'%(url.split('/')[-1])
+    path = path+'/%s'%(url.split('/')[-1])
     try:
         print("downloading %s from %s"%(vodid, url))
         print(path)
