@@ -51,12 +51,13 @@ def main(config):
         os.makedirs(config.save_dir)
 
     # Flickr api access key
-    flickr=flickrapi.FlickrAPI('c6a2c45591d4973ff525042472446ca2', '202ffe6f387ce29b', cache=True)
+    flickr=flickrapi.FlickrAPI('632aa04cd0eb607eb5cfbd656591dd49', '3179969a57b74a69', cache=True)
     
     keyword = config.target_class
     
     num_images = 0  #  이미지 개수
-    for url_type in ['url_k', 'url_h', 'url_o']:  # https://www.flickr.com/services/api/misc.urls.html
+    url_types = ['url_s', 'url_q', 'url_t', 'url_m', 'url_n', 'url_-', 'url_z', 'url_c', 'url_b', 'url_h', 'url_k', 'url_o']
+    for url_type in url_types:  # https://www.flickr.com/services/api/misc.urls.html
         photos = flickr.walk(text=keyword,
                              tag_mode='all',
                              tags=keyword,
@@ -68,9 +69,9 @@ def main(config):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--save_dir', type=str, default='/Users/user/Documents/document/flickr_test') # 수정포인트(2) dir 수정
-    parser.add_argument('--target_class', type=str, default='white tiger')
-    parser.add_argument('--per_page', type=int, default=500)
+    parser.add_argument('--save_dir', type=str, default='/Users/user/Downloads/flickr_test') # 수정포인트(2) dir 수정
+    parser.add_argument('--target_class', type=str, default='dog')
+    parser.add_argument('--per_page', type=int, default=100)
     
     
     config = parser.parse_args()

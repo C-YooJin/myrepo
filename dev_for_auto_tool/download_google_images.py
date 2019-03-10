@@ -35,8 +35,8 @@ def main(config):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--target_class', type=str, default='dog', help='keyword to crawl images from google')
-    parser.add_argument('--save_dir', type=str, default='/Users/user/Documents/document/test', help='directory where images are downloaded')
-    parser.add_argument('--max_num', type=int, default=10, help='maximum number of images to download')
+    parser.add_argument('--save_dir', type=str, default='/Users/user/Downloads/loop_test', help='directory where images are downloaded')
+    parser.add_argument('--max_num', type=int, default=1, help='maximum number of images to download')
     
     config = parser.parse_args()
     print(config)
